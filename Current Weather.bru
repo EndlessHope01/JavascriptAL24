@@ -1,0 +1,15 @@
+meta {
+  name: Current Weather
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{baseUrl}}/current.json?q=41.3304335, 19.8209424
+  body: none
+  auth: inherit
+}
+
+params:query {
+  q: 41.3304335, 19.8209424
+}

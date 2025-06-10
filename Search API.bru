@@ -1,0 +1,15 @@
+meta {
+  name: Search API
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{baseUrl}}/search.json?q=Tiran
+  body: none
+  auth: inherit
+}
+
+params:query {
+  q: Tiran
+}
